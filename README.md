@@ -3,10 +3,9 @@
 ### Implementação de uma API RESTful com SpringBoot 3 e Java 18
 ---
 
-> #### A Idéia nesses códigos é iniciar com uma aplicação simples, desenvolvendo as principais annotations e tratando exceções , 
-> #### avançando gradualmente para cenários mais complexos.
-> #### Ao final dessa trajetória, abodarei noções de HTTP, verbos/métodos, tipos de parâmetros, paginação, upload e download de arquivos, 
-> #### versionamento, HATEOAS, Swagger, autenticação, etc...
+> #### A Idéia nesses códigos é iniciar com uma aplicação simples, desenvolvendo as principais annotations e tratando exceções. 
+> #### Este projeto vai avançar gradualmente, sempre buscando obter cenários mais complexos.
+> #### Ao final dessa trajetória, abodarei noções de HTTP, verbos/métodos, tipos de parâmetros, paginação, upload e download de arquivos, versionamento, HATEOAS, Swagger, autenticação, etc...
 
 ---
 
