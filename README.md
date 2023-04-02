@@ -8,23 +8,23 @@
 > #### Ao final dessa trajetória, abodarei noções de HTTP, verbos/métodos, tipos de parâmetros, paginação, upload e download de arquivos, versionamento, HATEOAS, Swagger, autenticação, etc...
 
 ---
-#### Spring Boot 3;
-#### Java 20;
-#### Conceitos arquiteturais do REST/RESTful;
-#### Migrations com Flyway;
-#### Integração com o banco de dados MySQL;
-#### Content Negotiation;
-#### Versionamento de API’s;
-#### HATEOAS;
-#### Swagger Open API;
-#### Autenticação com JWT e Spring Security;
-#### Testes unitários e de integração com:
-  #### JUnit 5;
-  #### Mockito;
-  #### REST Assured;
-  #### Testcontainers.
-#### Upload e download de arquivos;
-
+> #### Spring Boot 3;
+> #### Java 20;
+> #### Conceitos arquiteturais do REST/RESTful;
+> #### Migrations com Flyway;
+> #### Integração com o banco de dados MySQL;
+> #### Content Negotiation;
+> #### Versionamento de API’s;
+> #### HATEOAS;
+> #### Swagger Open API;
+> #### Autenticação com JWT e Spring Security;
+> #### Testes unitários e de integração com:
+>   #### JUnit 5;
+>   #### Mockito;
+>   #### REST Assured;
+>   #### Testcontainers.
+> #### Upload e download de arquivos;
+----
 
 ----
 >#### @author:                             
