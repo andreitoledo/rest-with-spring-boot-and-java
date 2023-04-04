@@ -11,7 +11,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 import com.andreitoledo.erudio.exceptions.ExceptionResponse;
-import com.andreitoledo.erudio.exceptions.UnsupportedMathOperationException;
+import com.andreitoledo.erudio.exceptions.ResourceNotFoundException;
 
 // Anotação para concentrar todos os tratamentos espalhados no controle
 @ControllerAdvice
@@ -34,8 +34,8 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);		
 	}
 	// Tratamento de exceção específica
-	@ExceptionHandler(UnsupportedMathOperationException.class)
-	public final ResponseEntity<ExceptionResponse> handleBadRequestExceptions(
+	@ExceptionHandler(ResourceNotFoundException.class)
+	public final ResponseEntity<ExceptionResponse> handleNotFoundExceptions(
 			Exception ex, WebRequest request){
 		// retorna a exceção customizada
 		ExceptionResponse exceptionResponse = new ExceptionResponse(
@@ -43,7 +43,7 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 				ex.getMessage(),			
 				request.getDescription(false));
 		
-		return new ResponseEntity<>(exceptionResponse, HttpStatus.BAD_REQUEST);
+		return new ResponseEntity<>(exceptionResponse, HttpStatus.NOT_FOUND);
 		
 	}
 	
