@@ -1,3 +1,5 @@
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=andreitoledo&&hide=contribs,issues,prs&show_icons=true&theme=dark)
+
 ### rest-with-spring-boot-and-java
 
 ---
